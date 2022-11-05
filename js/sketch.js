@@ -4,8 +4,17 @@ function setup() {
 }
 
 function draw() {
-    background(220);
+    background(251,255,79);
 
-    fill(255, 255, 255);
-    ellipse(400, 400, 200);
+    fill(70,206,236);
+    square(200,200,400);
+    fill(70, 206, 236);
+    ellipse(200, 200, 400) ;
+    fill(70, 206, 236);
+    ellipse(600, 200, 400) ;
+    fill(70, 206, 236);
+    ellipse(200, 600, 400) ;
+    fill(70, 206, 236);
+    ellipse(600, 600, 400) ;
+
 }
